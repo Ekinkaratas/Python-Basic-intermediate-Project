@@ -80,23 +80,28 @@
 
 ### *Chapter 4*
 
-- **The first character**
-  The exercise summarizes the first_character function. I make it print the first character of the string it receives.
+- **The first character**  
 
-- **Mean**
-  I wrote a function called mean, which takes three integer arguments. Then, I calculated the arithmetic mean by dividing the sum of these three numbers by three. Finally, I printed the result on the screen.
+  The exercise summarizes the first_character function. I make it print the first character of the string it receives.  
 
-- **Print many times**
-  I wrote a function called print_many_times which takes a text and a number. Then, I printed the text on the screen for the given number of times.
+- **Mean**  
 
-  Then, I created an infinite loop. I asked the user to enter a text. If the user entered “1”, I exited the loop. Otherwise, I took a repeat number from the user and tried to convert it to an integer. If I succeeded, I called the print_many_times function and printed the text on the screen for the specified number of times. If the user entered an invalid input, I printed the message “Please try again.” on the screen. 
+  I wrote a function called mean, which takes three integer arguments. Then, I calculated the arithmetic mean by dividing the sum of these three numbers by three. Finally, I printed the result on the screen.  
 
-- **Chessboard**
-  When writing this code, I asked the user for a number and generated a chessboard pattern accordingly. If the number was less than 1, I terminated the program. If it was equal to 1 or the input was not valid, I asked the user to try again.
+- **Print many times**  
 
-  In the first solution I created the rows by setting the start value according to the row number. In the alternative solution I used a while loop to print both rows in sequence.
-  
-- **A word squared**
-  I wrote a function called chessboard, which takes a text and a length value. First, I calculated the length of the text. Then, I created as many rows as the given length. In each row, I printed a repeating square pattern, taking the characters of the text in order. When writing each character in the row, I was careful not to exceed the length of the text and I cyclically changed the indices.
+  I wrote a function called print_many_times which takes a text and a number. Then, I printed the text on the screen for the given number of times.  
 
-  Then, I created an infinite loop. I asked the user to enter a text. If the user typed “1”, I exited the loop. Otherwise, I took a square size input from the user and tried to convert it to an integer. If I succeeded, I called the chessboard function and printed the pattern on the screen. If the user entered an invalid input, I printed the message “Please try again.”
+  Then, I created an infinite loop. I asked the user to enter a text. If the user entered “1”, I exited the loop. Otherwise, I took a repeat number from the user and tried to convert it to an integer. If I succeeded, I called the print_many_times function and printed the text on the screen for the specified number of times. If the user entered an invalid input, I printed the message “Please try again.” on the screen.  
+
+- **Chessboard**  
+
+  When writing this code, I asked the user for a number and generated a chessboard pattern accordingly. If the number was less than 1, I terminated the program. If it was equal to 1 or the input was not valid, I asked the user to try again.  
+
+  In the first solution, I created the rows by setting the start value according to the row number. In the alternative solution, I used a while loop to print both rows in sequence.  
+
+- **A word squared**  
+
+  I wrote a function called chessboard, which takes a text and a length value. First, I calculated the length of the text. Then, I created as many rows as the given length. In each row, I printed a repeating square pattern, taking the characters of the text in order. When writing each character in the row, I was careful not to exceed the length of the text and I cyclically changed the indices.  
+
+  Then, I created an infinite loop. I asked the user to enter a text. If the user typed “1”, I exited the loop. Otherwise, I took a square size input from the user and tried to convert it to an integer. If I succeeded, I called the chessboard function and printed the pattern on the screen. If the user entered an invalid input, I printed the message “Please try again.”  
