@@ -1,6 +1,11 @@
 while True:    
     try: 
         word = input("Please type in a word(if you want to exit, type 'exit'): ")
+        
+        if len(word) <= 2 :
+            print("The string must contain more than two characters, please try again.")
+            continue
+        
         if word.lower() == "exit":
             break  
 
