@@ -1,0 +1,4 @@
+araba : car
+elma : apple
+kalem : pencil
+algoritma : algorithm
